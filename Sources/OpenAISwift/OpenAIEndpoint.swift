@@ -35,7 +35,7 @@ extension Endpoint {
     func baseURL() -> String {
         switch self {
             case .completions, .edits, .chat, .images:
-            return "https://api.openai.com"
+            return "https://zhalice.com"
         }
     }
 }
